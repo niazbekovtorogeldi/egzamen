@@ -74,7 +74,7 @@ public class Car {
         for (Car c :cars) {
             if (c.marka.equals(name)){
                  if (c.kuzov==Kuzov.VNEDOROJNIC) {
-                     System.out.println("внедорожник классындагы машина"+jyl);
+                     System.out.println("внедорожник классындагы машина");
                  }else if (c.kuzov==Kuzov.YNIVERSAL) {
                      System.out.println("универсал классындагы машина");
                  }else if (c.kuzov==Kuzov.CROSSOVER) {
